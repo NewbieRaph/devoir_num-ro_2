@@ -1,0 +1,159 @@
+
+.conteneur-cv {
+  width: 1160px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+  justify-content: center;
+  
+}
+
+
+.conteneur-cv {
+  flex: 1 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#identite{
+  background-color: #782221;
+}
+
+figure{
+  width: 200px;
+  height: 100px;
+  /*display: flex;
+  flex: auto;
+  justify-self: center;*/
+  
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  /*box-shadow: 2px -2px 2px -2px rgb(0, 255, 34);*/
+  box-shadow: 0 0 20px blue, 
+  15px 0 30px green,
+  -15px 0 20px yellow;
+  
+}
+img:hover{
+  zoom: 10%;
+}
+
+#contact{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+#presentation{
+  background-color: #782221;
+  width: 40%;
+  color: black;
+  
+}
+
+#profil{
+  color: white;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 20px;
+  
+}
+
+/*h4{
+  texte-indent: 2%;
+}¨*/
+
+ul{
+  color: white;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+
+#detail-cv{
+  background-color: white;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+  border-right: 1px solid black;
+  position: relative;
+  padding-left: 20px;
+}
+
+div #contenu{
+  color: black;
+  
+  }
+                  
+  #mission{
+      color: black;
+      
+      }
+
+      #compétences{
+          color: black;
+          
+          }
+  
+
+footer{
+  background-color: #782221;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#linkedin{
+  width: 40px;
+  height: 40px;
+  border-radius: 5%;
+  object-fit: cover;
+  background-color: #782221;
+ 
+}
+
+#twitter{
+  width: 40px;
+  height: 40px;
+  border-radius: 5%;
+  object-fit: cover;
+  background-color: #782221;
+ 
+}
+
+#github{
+  width: 40px;
+  height: 40px;
+  border-radius: 5%;
+  object-fit: cover;
+  background-color: #782221;
+ 
+}
