@@ -51,7 +51,7 @@ img{
   
 }
 img:hover{
-  zoom: 10%;
+  -ms-zoom-animation: 10%;
 }
 
 #contact{
